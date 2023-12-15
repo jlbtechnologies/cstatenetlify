@@ -146,9 +146,9 @@ params:
     - name: Tactical RMM
       description: Tactical RMM services
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+   # - name: Empty Category
+   # - name: Uncategorized
+   #   untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -161,21 +161,21 @@ params:
     - name: RMM Tactical Frontend
       description: Frontend RMM Tactical application.
       link: https://rmm.jlbtechnologies.com
-      category: RMM Tactical
+      category: Tactical RMM
     - name: RMM Tactical API
       description: Backend RMM Tactical application
       link: https://api.jlbtechnologies.com
-      category: RMM Tactical
+      category: Tactical RMM
     - name: RMM Tactical MeshCentral
       description: Meshcentral integration for Tactical RMM
-      category: RMM Tactical
+      category: Tactical RMM
       link: https://mash.jlbtechnologies.com
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+   # - name: API
+   #   description: The guts of the application.
+    #  category: Uncategorized
+   # - name: Media Proxy
+    #  description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    #  category: Uncategorized
 
   # What date format to use?
   #
